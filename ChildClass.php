@@ -16,4 +16,48 @@
 			$this->horsepower = $horsepower;
 		}
 
+		public function getOldMake() {
+			return parent::getMake();
+		}
+
+		public function getOldModel() {
+			return parent::getModel();
+		}
+
+		public function getOldYear() {
+			return parent::getYear();
+		}
+
+		public function getOldColor() {
+			return parent::getColor();
+		}
+
+		public function getOldHorsepower() {
+			return parent::getHorsepower();
+		}
+
+		public function setMake($newMake) {
+			 echo "<!-- Setting Make to " . $newMake . "-->";
+			 $this->make = $newMake;
+		}
+
+		public function setModel($newModel) {
+			 echo "<!-- Setting Model to " . $newModel . "-->";
+			 $this->model = $newModel;
+		}
+
+		public function setYear($newYear) {
+			 echo "<!-- Setting Year to " . $newYear . "-->";
+			 $this->year = $newYear;
+		}
+
+		public function setColor($newColor) {
+			 echo "<!-- Setting Color to " . $newColor . "-->";
+			 $this->color = $newColor;
+		}
+
+		public function setHorsepower($newHorsepower) {
+			 echo "<!-- Setting Horsepower to " . $newHorsepower . "-->";
+			 $this->horsepower = $newHorsepower;
+		}
 	}

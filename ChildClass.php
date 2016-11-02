@@ -1,5 +1,7 @@
 <?php
-	// this file will extend PArentClass.php
+	// this file will extend ParentClass.php
+	
+	require_once 'ParentClass.php';
 
 	class ChildClass extends ParentClass {
 		var $make;
@@ -8,7 +10,7 @@
 		var $color;
 		var $horsepower;
 
-		public function __construct($make, $model, $color, $horsepower) {
+		public function __construct($make, $model, $year, $color, $horsepower) {
 			$this->make       = $make;
 			$this->model      = $model;
 			$this->year       = $year;
@@ -61,3 +63,4 @@
 			 $this->horsepower = $newHorsepower;
 		}
 	}
+?>

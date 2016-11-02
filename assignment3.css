@@ -1,1 +1,33 @@
 /*styles for assignment 3*/
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  color: #FFFFFF;
+
+  margin-left: 100px;
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #009688;
+
+  margin-left: 200px;
+}
+
+p {
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  color: #424242;
+
+  margin-left: 300px;
+}
+
+.title-div {
+  height: 200px;
+  background-color: #009688;
+
+  margin: -40px -20px 0 -20px;
+  padding-top: 60px;
+}

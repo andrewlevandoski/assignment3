@@ -37,6 +37,15 @@
 		}
 
 		public function __toString() {
-			return $this->getColor() . " " . $this->getYear() . " " . $this.getMake() . " " . $this->getModel() . " with " . $this->horsepower . " horsepower.";
+			$myMake = $this->getMake();
+			$myModel = $this->getModel();
+			$myYear = $this->getYear();
+			$myColor = $this->getColor();
+			$myHorsepower = $this->getHorsepower();
+
+			$myString = $myColor . " " . $myYear . " " . $myMake . " " . $myModel . " with " . $myHorsepower . " horsepower.";
+
+			return $myString;
 		}
 	}
+?>
